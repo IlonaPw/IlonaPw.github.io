@@ -80,4 +80,19 @@
     .projects{
         padding-top:120px;
     }
+
+    @media(max-width : 450px){
+    
+        .home .home-content h1 {
+            font-size: 50px;
+            padding-top: 2.5em;
+        }
+        .home .home-content p {
+            width:11em;
+        }
+
+        .projects{
+            padding-top:230px;
+        }
+    }
 }
