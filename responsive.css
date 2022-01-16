@@ -80,7 +80,7 @@
     .projects{
         padding-top:120px;
     }
-
+}
     @media(max-width : 450px){
     
         .home .home-content h1 {
@@ -95,4 +95,3 @@
             padding-top:230px;
         }
     }
-}
