@@ -74,10 +74,7 @@
     .tasks .task-cards img{
         height: 256px;
     }
-    .description iframe{
-        height: 128px;
-        width: 256px;
-    }
+    
     .max-width {
         max-width: 400px;
     }
@@ -96,9 +93,11 @@
             height: 192px;
         }       
 
-        .description p{
-            width: 15em;
-        }
-
         
+    }
+
+    @media(max-width : 280px){
+        .max-width {
+            max-width: 280px;
+        }
     }

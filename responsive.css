@@ -1,3 +1,12 @@
+@media(max-width : 1310px){
+    header .bottom-content{
+        position: unset;
+        margin-left: 0%;
+        margin-right:0%;
+        margin-top: 10%;
+
+    }
+}
 @media(max-width : 947px){
     .max-width{
         max-width: 800px;
@@ -39,12 +48,14 @@
         padding: 1em;
     }
 
+
     .contact .contact-content{
         display: block;
     }
     .contact .contact-content .column {
         width: 100%;
     }
+
 }
 
 @media(max-width : 600px){
@@ -64,14 +75,6 @@
     background-color: #7c7c84;
     height:1100px;
     }
-
-    header .bottom-content{
-        position: unset;
-        margin-left: 0%;
-        margin-right:0%;
-        margin-top: 10%;
-
-    }
     .home{
         padding-top: 400px;
         overflow: hidden;
@@ -81,6 +84,13 @@
         padding-top:120px;
     }
 }
+
+    @media(max-width : 700px){
+        .max-width{
+            padding: 0 23px;
+        }
+    }
+
     @media(max-width : 450px){
     
         .home .home-content h1 {
@@ -94,4 +104,30 @@
         .projects{
             padding-top:230px;
         }
+    }
+
+    @media(max-width : 280px){
+        
+        .home .home-content h1 {
+            font-size: 40px;
+            padding-top: 3em;
+        }
+
+        .home .home-content p {
+            font-size: 20px;
+        }
+
+        .btn {
+            font-size : 20px;
+        }
+
+        .home .bottom-content{
+            width: 230px;
+        }
+
+        .projects  .card{
+            width: 100%;
+        }
+
+
     }
